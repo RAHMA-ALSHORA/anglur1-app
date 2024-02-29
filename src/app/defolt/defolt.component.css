@@ -1,0 +1,25 @@
+.def{
+    background-color: #1ABC9C;
+    text-align: center;
+    color:white;
+    padding: 9% ;
+}
+ img{
+    background-image:url('/img/avataaars.svg') ;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+p{
+    margin-bottom: 0;
+}
+.in{
+    display: flex;
+    justify-content: center;
+}
+.lin{
+    background-color: white;
+    width: 50px;
+    height: 3px;
+    margin: 7px;
+}

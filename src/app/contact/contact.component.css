@@ -1,0 +1,43 @@
+.adr{
+    color:#2C3E50 ;
+    text-align: center;
+    padding: 5%;
+}
+h2{
+    font-weight: bold;
+}
+.in{
+    display: flex;
+    justify-content: center;
+}
+.lin{
+    background-color:#2C3E50 ;
+    width: 80px;
+    height: 5px;
+    margin: 7px;
+}
+form{
+    width: 50%;
+    margin: auto;
+    padding-bottom: 10%;
+
+}
+.form-control{
+    border-top: 0px;
+    border-left:0px ;
+    border-right:0px ;
+    box-shadow: none;
+}
+button{
+    background-color:#1ABC9C ;
+    color: white;
+    padding: 10px;
+    margin-left: 5%;
+    
+
+
+}
+button:hover{
+    background-color: #1ABC9C;
+    color: white;
+}

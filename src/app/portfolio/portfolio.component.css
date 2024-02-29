@@ -1,0 +1,53 @@
+.adr{
+    color:#2C3E50 ;
+    text-align: center;
+}
+h2{
+    font-weight: bold;
+}
+.in{
+    display: flex;
+    justify-content: center;
+}
+.lin{
+    background-color:#2C3E50 ;
+    width: 80px;
+    height: 5px;
+    margin: 7px;
+}
+
+
+.item{  
+    overflow: hidden;
+    position: relative; 
+    margin: 20px 0; 
+   
+}
+.item img{
+width: 100%;
+border-radius: 10px;
+}
+.fa-plus{
+    font-size: 80px;
+    padding-top: 100px;
+}
+.layer{
+     background-color:#1ABC9C ;
+     color: white;
+     border-radius: 10px;
+     text-align: center;
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     right: 0;
+     left: 0;
+     opacity: 0;
+     margin:0 10px;
+     transition: all 0.8s;
+}
+.item:hover{
+    .layer{
+        opacity: 80%;
+    }
+}
+

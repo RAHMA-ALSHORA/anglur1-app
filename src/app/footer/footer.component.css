@@ -1,0 +1,25 @@
+footer{
+    background-color:#2C3E50 ;
+    color: white;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 80px;
+
+}
+.fo{
+    background-color:#1A252F ;
+    margin-top: 0;
+    text-align: center;
+    padding: 30px;
+}
+.sm{
+    width: 25%;
+}
+i{
+    margin: 10px;
+}
+.fo p{
+    color: white;
+}
